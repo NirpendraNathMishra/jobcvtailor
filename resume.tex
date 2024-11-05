@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Nirpendra Nath Mishra
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome}
+\input{glyphtounicode}
+
+
+%---------- FONT OPTIONS ----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeEducationHeading}[6]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+      %\textit{\small#5} & \textit{\small #6} \\ remover this line because extra space was not needed 
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeOrganizationHeading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2} \\
+      \textit{\small#3}
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%---------- HEADING ----------
+
+\begin{center}
+    \textbf{\Huge \scshape Nirpendra Nath Mishra} \\ \vspace{3pt}
+    \small
+    \faMobile \hspace{.5pt} \href{tel:916200399265}{+91 6200399265}
+    $|$
+    \faAt \hspace{.5pt} \href{mailto:nirpendranathmishra1947@gmail.com}{Nirpendranathmishra1947@gmail.com}
+    $|$
+    \faLinkedinSquare \hspace{.5pt} \href{https://www.linkedin.com/in/nnm1947/}{LinkedIn}
+    $|$
+    \faGithub \hspace{.5pt} \href{https://github.com/NirpendraNathMishra}{GitHub}
+    %will comment out if i need and necessary of the porfolio just remove the c% signs only and you will be good to go 
+    $|$
+    \faGlobe \hspace{.5pt} \href{https://nirpendranathmishra1947.vercel.app/}{Portfolio}
+    $|$
+    \faMapMarker \hspace{.2pt} \href{https://goo.gl/maps/Rn535Mu7s5YhaUNo9}{Noida}
+\end{center}
+
+
+
+%----------- EDUCATION -----------
+
+\section{Education}
+  \vspace{-1pt}
+  \resumeSubHeadingListStart
+    
+    \resumeEducationHeading
+      {Amity University
+      % \normalfont{(Admission rate: 0.09\%)}
+      }{Noida, Uttar Pradesh }
+      {Master's in Computer Application;   \textbf{GPA: 7.85/10}}{{} Jul 2023}
+      {{}}{{}}
+    
+    \resumeSubheading
+      {Lalit Narayan Mithila University
+      %\normalfont{(Admission rate: 0.85\%)}
+      }{Darbhanga, Bihar
+}
+      {Bachelor's in Physics }{ Dec 2020}
+    
+  \resumeSubHeadingListEnd
+
+
+
+%----------- WORK EXPERIENCE -----------
+
+\section{Work Experience}
+  \vspace{-1pt}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+     {Jio Platforms Limited }{RCP  Mumbai, India (Remote)}
+      {Sde/Sdet Intern}{Jan 2023 \textbf{--} May 2023}
+        \resumeItemListStart
+            % INSERT WORK EXPERIENCE POINTS HERE
+        \resumeItemListEnd
+    \resumeSubheading
+      {TCS iON}{Noida India}
+      {Sde Intern}{Jun 2022 \textbf{--} Aug 2022}
+        \resumeItemListStart
+            % INSERT WORK EXPERIENCE POINTS HERE
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+%----------- PROJECTS -----------
+
+\section{Projects}
+    \vspace{3pt}
+    \resumeSubHeadingListStart
+      
+      % INSERT PROJECTS HERE
+      
+    \resumeSubHeadingListEnd
+%----------- SKILLS -----------
+
+\section{Skills}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Programming:}{ C++,C\#, CSS, HTML, Java, JavaScript, Solidity } \\ \vspace{3pt}
+        \textbf{Technologies:}{ Angular, AWS, Docker, Git, Nodejs, Cucumber, Selenium, Karate, MongoDB, React, Expressjs,Google Cloud, Spring-Boot} \\ \vspace{3pt}
+        \textbf{Certificates:}{ IBM Full Stack Software Developer Professional Certificate, Google Cloud Digital Training Certificate }
+    }}
+  \resumeSubHeadingListEnd
+
+%----------- RELEVANT COURSEWORK -----------
+
+\section{Relevant Coursework}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textbf{Major coursework:}{ Computer Graphics,  Connecting Networks, Physics, Introduction to Artificial Intelligence, Data Analytics } \\ \vspace{3pt}
+        
+        \textbf{Minor coursework:}{ Discrete Computational Structures, Introduction to Object-Oriented Programming, Data Structures and Algorithms, Computer Organization, Fundamentals of Software Engineering}
+    }}
+  \resumeSubHeadingListEnd
+
+  % Set the background color (e.g., light gray)
+
+
+\end{document}
